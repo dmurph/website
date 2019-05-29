@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Daniel's Scrapy Website</title>
+        <style>
+            .header {
+                display: block;
+            }
+
+            .body {
+                display: flex;
+                margin: 1em;
+            }
+
+            .column {
+                margin: 1em;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+
+            #sidebar {
+                width: 20%;
+            }
+
+            #articles {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex: 1;
+            }
+
+            .article {
+                margin: 1em;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='header'>Header!</div>
+        <div class='body'>
+            <div class='column'>
+                <div id='articles'>
+                    <div class='article'>asdf</div>
+                    <div class='article'>asdf</div>
+                    <div class='article'>asdf</div>
+                    <div class='article'>asdf</div>
+                </div>
+            </div>
+            <div class='column' id='sidebar'>Column Two</div>
+        </div>
+    </body>
+</html>
